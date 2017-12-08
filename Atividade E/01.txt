@@ -1,0 +1,20 @@
+1. Classes são descrições de objetos, ou agrupamento dos mesmos com a mesma estrutura de dados; 
+já objeto, é algo distinguivel que contém atributos e possui um comportamento.
+
+2. Atributo: conjunto de propriedades da classe;
+   Métodos: conjunto de funcionalidades da classe;
+   Exemplo de objeto: Uma Conta bancária.
+
+3. Atributo, Sistema em que é importante, Sistema em que não é importante:
+Peso, Clínica/Nutricionista, Emprego;
+Tipo de CNH, Detran, E-mail;
+Tipo Sanguíneo, Hospital, Previdência Social;
+Percentual de gordura, Clínica/Nutricionista, Controle Acadêmico;
+Saldo em conta, Banco, Comércio;
+Etinia, IBGE, Escola EAD
+
+4. Sim; Igualmente; Listas, dicionários.
+
+5. Aluno, Professor, Técnico Administrativo, Pais de alunos, Biblioteca.
+
+6. Protagonista de um jogo: Atributos: Nome, familia; comportamentos: correr, matar, comprar, saltar.
