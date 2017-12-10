@@ -1,0 +1,15 @@
+01. Por que tal classe tem 2 herdeiras e não faz sentindo dar "new Conta", já que a mesma pode ser usada apenas
+como referência.
+
+03. Se o corpo do método for removido, as classes herdeiras não poderão utilizá-lo.
+
+05. Não. Se a classe for abstrata, qualquer método dela pode ser reescrito nas classes herdeiras.
+
+06. As classes herdeiras ainda precisam de tal metódo para implementar como desejarem.
+
+07. -
+
+9.7 (DESAFIOS)
+
+1. Por que "new Conta[10]" é um vetor que aponta para 10 referências para Conta
+e a mesma têm duas herdeiras, o que faz isso possível.
