@@ -1,0 +1,6 @@
+01. Não; elas apenas idealizam um tipo, definem apenas um rascunho.
+
+03. Ocorrerá um erro e não compilará.
+
+07. Por que "FiguraGeometrica[10]" é um vetor que aponta para 10 referências para uma Figura Geometrica
+e a mesma têm duas herdeiras, o que faz isso possível.
