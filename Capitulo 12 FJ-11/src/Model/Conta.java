@@ -1,3 +1,4 @@
+package Model;
 
 public class Conta {
     protected double saldo;
@@ -10,7 +11,7 @@ public class Conta {
         }
     }
 
-    public void saca(double valor){
+    public void saca(double valor) throws SaldoInsuficienteException {
         this.saldo -= valor;
     }
 

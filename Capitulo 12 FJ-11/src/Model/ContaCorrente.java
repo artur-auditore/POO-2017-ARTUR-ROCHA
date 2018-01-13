@@ -1,4 +1,16 @@
+package Model;
+
 public class ContaCorrente extends Conta{
+
+    @Override
+    public double getSaldo() {
+        return super.getSaldo();
+    }
+
+    @Override
+    public void setSaldo(double saldo) {
+        super.setSaldo(saldo);
+    }
 
     @Override
     public void atualiza(double taxa) {
@@ -10,10 +22,10 @@ public class ContaCorrente extends Conta{
     }
 
     @Override
-    public void saca(double valor) {
+    public void saca(double valor) throws SaldoInsuficienteException {
 
         if (this.saldo < valor) {
-            throw new SaldoInsuficienteException();
+            throw new SaldoInsuficienteException(valor);
         }
         if (valor < 0){
             throw new IllegalArgumentException();

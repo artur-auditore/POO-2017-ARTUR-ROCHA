@@ -1,6 +1,7 @@
-/**
- * Created by aluno on 11/01/18.
- */
+package App;
+
+import Model.Conta;
+
 public class TestaContas {
 
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class TestaContas {
             conta.setSaldo(90000);
             conta.deposita(-10000);
         } catch (IllegalArgumentException e){
-            String s = "Você tentou depositar um valor negativo!";
+            System.out.println(e.getMessage());
         }
     }
 }

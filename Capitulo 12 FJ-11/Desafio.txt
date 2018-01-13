@@ -1,0 +1,1 @@
+1. O java vai disparar uma exception checada indicando falta ded memória.
