@@ -1,4 +1,10 @@
+package Model;
+
 public class ContaCorrente extends Conta{
+
+    public ContaCorrente(String titular) {
+        super(titular);
+    }
 
     @Override
     public double getSaldo() {
@@ -18,6 +24,5 @@ public class ContaCorrente extends Conta{
     public void deposita(double valor){
         this.saldo += valor - 0.10;
     }
-
 
 }
